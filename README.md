@@ -47,7 +47,6 @@ Este é um aplicativo desktop simples, construído com Python e Tkinter, para tr
 
 ## Solução de Problemas
 
-* **`_tkinter.TclError: Layout SmallButton not found`**: Este erro foi corrigido na versão atual do script. Garanta que você está usando a última versão e que os estilos dos botões (`Small.TButton`, `Green.TButton`, `Red.TButton`) estão configurados corretamente no `ttk.Style`.
 * **"Aviso: CUDA não está disponível..."**: Isso significa que o PyTorch não conseguiu detectar uma GPU compatível com CUDA. A transcrição continuará na CPU. Se você tem uma GPU NVIDIA, verifique a instalação dos drivers e do PyTorch com suporte a CUDA.
 * **Erro na instalação de pacotes**: Se a instalação automática falhar, pode ser devido a problemas de permissão ou conexão. Tente instalar manualmente os pacotes.
 
